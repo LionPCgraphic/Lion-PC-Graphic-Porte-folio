@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lion PC Graphic</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lion PC Graphic</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Graphiste avec plus de 6 ans d’expérience, spécialisé en <strong>logo design</strong>, <strong>branding</strong>, <strong>affiches</strong> et <strong>motion design</strong>. Créatif, passionné et toujours à la recherche de nouvelles idées visuelles pour valoriser vos projets.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <div class="project">
+        <a href="https://www.behance.net/gallery/142552539/Echo-Center-LOGO" target="_blank">
+          <img src="https://cdn.behance.net/v1/preview/0f3f8bc7e8b6f4c3d7d824b1fe1eb2129.jpg" alt="Echo Center Logo" />
+        </a>
+        <p><strong>Echo Center - Logo</strong></p>
+      </div>
+      <div class="project">
+        <a href="https://www.behance.net/gallery/142260841/Bant-Tape" target="_blank">
+          <img src="https://cdn.behance.net/v1/preview/1d2b9132d043f5b7fd6190eb902c639e.jpg" alt="iSTWeld Tape Affiche" />
+        </a>
+        <p><strong>iSTWeld Tape - Affiche</strong></p>
+        <a href="https://www.behance.net/gallery/142261697/Tape-presentation" target="_blank" class="btn">Voir la vidéo</a>
+      </div>
+      <div class="project">
+        <a href="https://www.behance.net/gallery/142260199/Welding-Mask" target="_blank">
+          <img src="https://cdn.behance.net/v1/preview/a9d89c22b7e03b9b153257edb1e9c1b9.jpg" alt="iSTWeld Welding Mask" />
+        </a>
+        <p><strong>iSTWeld Welding Mask</strong></p>
+        <a href="https://www.behance.net/gallery/142261697/Tape-presentation" target="_blank" class="btn">Voir la vidéo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Vous pouvez me contacter via mes réseaux sociaux ou consulter mon portfolio complet sur Behance.</p>
+    <p>Email : <em>(ajoute ton email ici si tu veux)</em></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lion PC Graphic. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
